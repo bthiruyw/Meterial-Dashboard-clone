@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="dashboard container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-2">
+          <div class="navbar-expand-lg">
+            <div
+              class="d-flex flex-column flex-shrink-0 py-3 bg-transparent w-100 h-100"
+            >
+              <a
+                href="#"
+                class="link-dark text-decoration-none d-flex justify-content-between my-3 mx-2"
+              >
+                <div class="d-flex align-items-center">
+                  <img src="img/logo.svg" alt="logo" class="img-fluid" />
+                  <h4 class="my-1 mx-2" style="color: gray"><b>MATERIO</b></h4>
+                </div>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarS"
+                  aria-controls="navbarS"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fas fa-bars"></i>
+                </button>
+              </a>
+
+              <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="nav nav-pills flex-column mb-auto mt-3">
+                  <li>
+                    <a href="#" class="nav-link link-dark">
+                      <small class="me-3"><i class="fas fa-home"></i></small>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link active link-dark"
+                      ><small class="me-3"><i class="far fa-circle"></i></small>
+                      CRM
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark">
+                      <small class="me-3"><i class="far fa-circle"></i></small>
+                      Analytics</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="far fa-circle"></i></small>
+                      Ecommerce</a
+                    >
+                  </li>
+                  <small class="my-4">APPS AND PANGES</small>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-calendar-week"></i
+                      ></small>
+                      Calender</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-comment-alt"></i
+                      ></small>
+                      Chat</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-envelope"></i
+                      ></small>
+                      Email</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-file-invoice"></i
+                      ></small>
+                      Invoice</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-user"></i></small>
+                      User</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-file"></i></small>
+                      Pages</a
+                    >
+                  </li>
+                  <small class="my-4">USER INTERFACE</small>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-text-width"></i
+                      ></small>
+                      Typography</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-icons"></i></small>
+                      Icons</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-gamepad"></i
+                      ></small>
+                      Gamification</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-address-card"></i
+                      ></small>
+                      Cards</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-archive"></i
+                      ></small>
+                      Components</a
+                    >
+                  </li>
+                  <small class="my-4">FORMS AND TABLES</small>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fab fa-wpforms"></i
+                      ></small>
+                      Form Elements</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="far fa-file-alt"></i
+                      ></small>
+                      Form Layouts</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-calendar-check"></i
+                      ></small>
+                      Form Validation</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-table"></i></small>
+                      Tables</a
+                    >
+                  </li>
+                  <small class="my-4">CHARTS AND MAPS</small>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-chart-pie"></i
+                      ></small>
+                      Charts</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-map-marker-alt"></i
+                      ></small>
+                      Leaflet Maps</a
+                    >
+                  </li>
+                  <small class="my-4">OTHERS</small>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-cogs"></i></small>
+                      Access Control</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"><i class="fas fa-bars"></i></small>
+                      Menu Levels</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="far fa-caret-square-down"></i
+                      ></small>
+                      Disabled Menu</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-question-circle"></i
+                      ></small>
+                      Raise Support</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link link-dark"
+                      ><small class="me-3"
+                        ><i class="fas fa-file-upload"></i
+                      ></small>
+                      Documentation</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <nav class="navbar navbar-expand navbar-light bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color: gray" href="#"
+                ><i class="fas fa-search"></i
+              ></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tamil</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-moon"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link w-100 h-100" href="#"
+                      ><i class="fas fa-user"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                class="shadow-sm d-flex rounded-3 bg-white px-2 mb-4 mb-lg-0"
+              >
+                <div class="w-50 ps-2 me-lg-4 fontColorLight py-4 px-2">
+                  <h5 class="mb-3">Ratings</h5>
+                  <span class="d-flex fontColorDark mb-3">
+                    <h4>13K</h4>
+                    <small class="text-success">+38%</small>
+                  </span>
+                  <span class="d-flex">
+                    <small
+                      class="highLight rounded-3 px-2 py-1 small-font-size"
+                    >
+                      Year of 2021
+                    </small>
+                  </span>
+                </div>
+
+                <div class="w-50">
+                  <img src="img/female.png" class="h-100 w-100" alt="Picture" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div
+                class="shadow-sm d-flex rounded-3 bg-white px-2 py-1 mb-4 mb-lg-0"
+              >
+                <div class="w-50 ps-lg-2 me-lg-4 fontColorLight py-4 px-2">
+                  <h5 class="mb-3">Sessions</h5>
+                  <span class="d-flex fontColorDark mb-3">
+                    <h4>24.5K</h4>
+                    <small class="text-danger">+22%</small>
+                  </span>
+                  <span class="d-flex">
+                    <small
+                      class="highLight rounded-3 px-2 py-1 small-font-size"
+                    >
+                      Last Week
+                    </small>
+                  </span>
+                </div>
+
+                <div class="w-50">
+                  <img src="img/male.png" class="h-100 w-75" alt="Picture" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+              <div class="shadow-sm rounded-3 bg-white h-100 p-4">
+                <div class="d-flex justify-content-between">
+                  <span>
+                    <h4 class="fontColorDark">Statistics Card</h4>
+                    <small>Total 48.5% growth😎 this month</small>
+                  </span>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                  <div>
+                    <small>Sales</small>
+                    <h5>245K</h5>
+                  </div>
+                  <div>
+                    <small>Customers</small>
+                    <h5>12.5K</h5>
+                  </div>
+                  <div>
+                    <small>Product</small>
+                    <h5>1.54K</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Row -->
+          <div class="row mt-4">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <div class="d-flex justify-content-between">
+                  <span>
+                    <h5 class="fontColorLight">Total Sales</h5>
+                    <span class="d-flex">
+                      <h4 class="fontColorDark">$21,845</h4>
+                      <small class="text-success"> 25.8%</small>
+                    </span>
+                  </span>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="mt-3">
+                  <canvas id="lineChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 my-4 my-md-0">
+              <div class="bg-white p-3 rounded-3 shadow-sm h-100">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span>
+                    <h5 class="fontColorLight">Revenue Report</h5>
+                  </span>
+                  <small class="highLight rounded-3 px-2 py-1 small-font-size">
+                    This Year
+                  </small>
+                </div>
+                <div class="mt-3">
+                  <canvas id="lineChart2"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-6 mt-4 mt-lg-0">
+              <div class="bg-white rounded-3 shadow-sm h-100 p-3">
+                <span class="d-flex justify-content-between align-items-center">
+                  <h5 class="fontColorLight">Revenue Report</h5>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </span>
+                <div class="row">
+                  <div class="col-12 col-md-6 text-center">
+                    <h4 class="fontColorDark">104.5K</h4>
+                    <canvas id="pieChart"></canvas>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div>
+                      <h5 class="fontColorLight mt-2 mt-md-0">
+                        Number of Sales
+                      </h5>
+                      <h4 class="fontColorDark">$86,400</h4>
+                    </div>
+                    <hr />
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>
+                        <small
+                          ><span
+                            class="me-1"
+                            style="color: rgba(0, 0, 255, 0.8)"
+                            ><i class="fas fa-circle"></i></span
+                          >Apparel</small
+                        >
+                        <h6>$1,840</h6>
+                      </div>
+                      <div>
+                        <small
+                          ><span
+                            class="me-1"
+                            style="color: rgba(0, 0, 255, 0.5)"
+                            ><i class="fas fa-circle"></i></span
+                          >Electronic</small
+                        >
+                        <h6>$11,420</h6>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>
+                        <small
+                          ><span
+                            class="me-1"
+                            style="color: rgba(0, 0, 255, 0.3)"
+                            ><i class="fas fa-circle"></i></span
+                          >FMCG</small
+                        >
+                        <h6>$30,234</h6>
+                      </div>
+                      <div>
+                        <small
+                          ><span class="me-1" style="color: rgba(0, 0, 0, 0.1)"
+                            ><i class="fas fa-circle"></i></span
+                          >Other Sales</small
+                        >
+                        <h6>$46,054</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd Row -->
+
+          <div class="row mt-4">
+            <div class="col-12 col-md-12 col-lg-6">
+              <div class="bg-white p-3 rounded-3 shadow-sm">
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <h5 class="fontColorLight">Activity Timeline</h5>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="d-flex justify-content-between my-3 mx-2">
+                  <div>
+                    <p class="m-0 fontColorDark">
+                      <span class="me-2" style="color: red"
+                        ><i class="fas fa-dot-circle"></i></span
+                      ><b>8 Invoices have been paid</b>
+                    </p>
+                    <small class="fontColorLight"
+                      >Invoices have been paid to the company.</small
+                    ><br />
+                    <small><i class="fas fa-file-pdf"></i> Innvoice.pdf</small>
+                  </div>
+                  <small class="fontColorLight">Wednesday</small>
+                </div>
+                <div class="d-flex justify-content-between my-3 mx-2">
+                  <div>
+                    <p class="m-0 fontColorDark">
+                      <span class="me-2" style="color: blueviolet"
+                        ><i class="fas fa-dot-circle"></i></span
+                      ><b>Create a new project for client 😎</b>
+                    </p>
+                    <small class="fontColorLight"
+                      >Invoices have been paid to the company.</small
+                    ><br />
+                    <small>John Doe (Client)</small>
+                  </div>
+                  <small class="fontColorLight">April, 18</small>
+                </div>
+                <div class="d-flex justify-content-between my-3 mx-2">
+                  <div>
+                    <p class="m-0 fontColorDark">
+                      <span class="me-2" style="color: skyblue"
+                        ><i class="fas fa-dot-circle"></i></span
+                      ><b>Order #37745 from September</b>
+                    </p>
+                    <small class="fontColorLight"
+                      >Invoices have been paid to the company.</small
+                    ><br />
+                  </div>
+                  <small class="fontColorLight">January, 10</small>
+                </div>
+                <div class="d-flex justify-content-between my-3 mx-2">
+                  <div>
+                    <p class="m-0 fontColorDark">
+                      <span class="me-2" style="color: green"
+                        ><i class="fas fa-dot-circle"></i></span
+                      ><b>Client Meeting</b>
+                    </p>
+                    <small class="fontColorLight"
+                      >Project meeting with john 👨🏻‍💻 @10:15am</small
+                    ><br />
+                  </div>
+                  <small class="fontColorLight">September, 20</small>
+                </div>
+                <div class="d-flex justify-content-between my-3 mx-2">
+                  <div>
+                    <p class="m-0 fontColorDark">
+                      <span class="me-2" style="color: orange"
+                        ><i class="fas fa-dot-circle"></i></span
+                      ><b>Public Meeting</b>
+                    </p>
+                  </div>
+                  <small class="fontColorLight">January, 10</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+              <div class="bg-white p-3 h-100 rounded-3 shadow-sm mt-3 mt-lg-0">
+                <div class="d-flex justify-content-between">
+                  <span>
+                    <h5 class="fontColorLight">Weekly Sales</h5>
+                    <p class="fontColorLight">Total 85.4k Sales</p>
+                  </span>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="mt-3">
+                  <canvas id="barChart"></canvas>
+                </div>
+                <div
+                  class="d-flex justify-content-around align-items-center mt-4"
+                >
+                  <span
+                    class="d-flex justify-content-around align-items-center"
+                  >
+                    <h1 style="color: #c48eff">
+                      <i class="fas fa-external-link-square-alt"></i>
+                    </h1>
+                    <span class="mx-3">
+                      <p class="m-0 fontColorDark"><b>21.8k</b></p>
+                      <small>Sales</small>
+                    </span>
+                  </span>
+
+                  <span
+                    class="d-flex justify-content-center align-items-center"
+                  >
+                    <h1 style="color: green">
+                      <i class="fas fa-dollar-sign"></i>
+                    </h1>
+                    <span class="mx-3">
+                      <p class="m-0 fontColorDark"><b>21.8k</b></p>
+                      <small>Sales</small>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-2 col-md-6">
+              <div class="h-100 py-3 mt-3 mt-md-0">
+                <div class="h-50 bg-white mb-3 rounded-3 shadow-sm p-3">
+                  <h5 class="fontColorLight">42.5k</h5>
+                  <canvas id="lineChartThree" class="my-0 h-75"></canvas>
+                  <p class="text-center">Total Growth</p>
+                </div>
+                <div class="h-50 bg-white rounded-3 shadow-sm p-3">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <h5 class="fontColorLight">New Project</h5>
+                    <span><i class="fas fa-ellipsis-v"></i></span>
+                  </div>
+                  <span class="d-flex mt-2">
+                    <h2 class="fontColorDark">862</h2>
+                    <span class="text-danger">-18%</span>
+                  </span>
+                  <small class="fontColorLight">Yearly Project</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4th Row -->
+          <div class="row mt-4">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="bg-white p-3 rounded-3 shadow-sm text-white">
+                <div
+                  class="d-flex justify-content-between align-content-center"
+                >
+                  <h5 class="fontColorLight">Upgrade Your Plan</h5>
+                  <span class="fontColorDark"
+                    ><i class="fas fa-ellipsis-v"></i
+                  ></span>
+                </div>
+                <small class="fontColorLight"
+                  >Plase make the payment to start enjoying all the features of
+                  our premuim plan as soon as possible.</small
+                >
+                <div class="bg-info d-flex rounded-3 px-4 py-2 mt-2">
+                  <h1>
+                    <i class="fas fa-toolbox"></i>
+                  </h1>
+                  <span class="ms-3">
+                    <p class="m-0">Platinum</p>
+                    <small>Upgrade Plan</small>
+                  </span>
+                  <h3 class="ms-auto">$ 5,250</h3>
+                </div>
+                <small class="fontColorLight fw-bold d-block py-2"
+                  >Payment details</small
+                >
+                <div class="row fontColorDark">
+                  <div class="col-9">
+                    <p class="m-0">Credit card</p>
+                    <small>2566 xxxx xxxx 8908</small>
+                  </div>
+                  <div class="col-3">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="CVV"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-9 mt-2">
+                    <p class="m-0">Credit card</p>
+                    <small>2566 xxxx xxxx 8908</small>
+                  </div>
+                  <div class="col-3 mt-2">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="CVV"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <small class="text-primary mt-2">Add Payment Method</small>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="form-group mt-2">
+                  <button class="btn btn-primary form-control">
+                    PROCERSS TO PAYMENT
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="bg-white rounded-3 shadow-sm p-3 mt-4 mt-md-0">
+                <div
+                  class="d-flex justify-content-between align-content-center mb-2"
+                >
+                  <h5 class="fontColorLight">Meeting Schedule</h5>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark">Call with Woods</small
+                    ><br />
+                    <small class="fontColorLight">21 Jul | 08:20-10:30</small>
+                  </span>
+                  <span class="text-success ms-auto">Business</span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark">Call with hilda</small
+                    ><br />
+                    <small class="fontColorLight">24 Jul | 11:30-12:00</small>
+                  </span>
+                  <span class="text-success ms-auto">Meditation</span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark">Conference call</small
+                    ><br />
+                    <small class="fontColorLight">28 Jul | 05:00-6:45</small>
+                  </span>
+                  <span class="text-success ms-auto">Meditation</span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark"
+                      >Meeting with Mark</small
+                    ><br />
+                    <small class="fontColorLight">03 Aug | 07:00-8:30</small>
+                  </span>
+                  <span class="text-success ms-auto">Meetup</span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark"
+                      >Meeting in Oakland</small
+                    ><br />
+                    <small class="fontColorLight">14 Aug | 04:15-05:30</small>
+                  </span>
+                  <span class="text-success ms-auto">Business</span>
+                </div>
+                <div class="d-flex my-2">
+                  <h1 style="color: #9155fd">
+                    <i class="fas fa-user-tie"></i>
+                  </h1>
+                  <span class="ms-4">
+                    <small class="fw-bold fontColorDark"
+                      >Meeting with Carl</small
+                    ><br />
+                    <small class="fontColorLight">05 Oct | 10:00-12:45 </small>
+                  </span>
+                  <span class="text-success ms-auto">Party</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="bg-white mt-4 mt-lg-0">
+                <img src="img/taksLap.png" class="img-fluid" alt="img" />
+                <div class="p-3">
+                  <div class="d-flex">
+                    <span>
+                      <small>JAN</small>
+                      <h3>24</h3>
+                    </span>
+                    <span class="ms-3">
+                      <h6 class="m-0 fontColorDark">Developer Meetup</h6>
+                      <small class="fontColorLight"
+                        >The WordPress open source, free software project is the
+                        community behind the…</small
+                      >
+                    </span>
+                  </div>
+                  <hr />
+                  <div class="d-flex justify-content-around align-items-center">
+                    <span class="text-center">
+                      <h3 class="fontColorDark"><i class="far fa-star"></i></h3>
+                      <small class="fontColorLight">Intrested</small>
+                    </span>
+                    <span class="text-center">
+                      <h3 class="fontColorDark">
+                        <i class="far fa-check-circle"></i>
+                      </h3>
+                      <small class="fontColorLight">Joined</small>
+                    </span>
+                    <span class="text-center">
+                      <h3 style="color: #9155fd">
+                        <i class="far fa-user"></i>
+                      </h3>
+                      <small style="color: #9155fd">Invited </small>
+                    </span>
+                    <span class="text-center">
+                      <h3 class="fontColorDark">
+                        <i class="fas fa-ellipsis-h"></i>
+                      </h3>
+                      <small class="fontColorLight">More</small>
+                    </span>
+                  </div>
+                  <div class="d-flex fontColorDark my-4">
+                    <span>
+                      <h5 class="m-0">
+                        <i class="far fa-clock"></i>
+                      </h5>
+                    </span>
+                    <span class="ms-3">
+                      <h6 class="m-0">Tuesday, 24 january, 10:20 - 12:30</h6>
+                      <small>After 1 week</small>
+                    </span>
+                  </div>
+                  <div class="d-flex fontColorDark my-4">
+                    <span>
+                      <h5 class="m-0">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </h5>
+                    </span>
+                    <span class="ms-3">
+                      <h6 class="m-0">The Rochard NYC</h6>
+                      <small>1305 Lexington Ave, New York</small>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
